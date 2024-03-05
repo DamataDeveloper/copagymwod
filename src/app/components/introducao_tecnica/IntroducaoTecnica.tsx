@@ -48,7 +48,7 @@ type Props = {
 export const IntroducaoTecnica = ({ listaYoutube }: Props) => {
     return (
         <div className="flex flex-col w-full mt-10">
-            <Titulo>INFORMACAO TECNICA</Titulo>
+            <Titulo>Informações técnicas</Titulo>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pr-3 pl-3">
                 {listaYoutube.map((item) => (
                     <div key={item.id} className="flex w-full justify-center ">
