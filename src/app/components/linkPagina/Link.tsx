@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { lusitana, anton } from '@/app/ui/fonts';
 type Props = {
     src: string;
     alt: string;
@@ -16,7 +17,7 @@ export const Link = ({src, alt, href} : Props)=>{
                     src={src} 
                     alt={alt} 
                 />
-                <span className='text-white font-bold text-base group-hover:text-lg transition-all duration-300 ease-in-out transform'>
+                <span className={ ` text-white font-bold text-base group-hover:text-lg transition-all duration-300 ease-in-out transform`}>
                     {alt}
                 </span>
             </a>
