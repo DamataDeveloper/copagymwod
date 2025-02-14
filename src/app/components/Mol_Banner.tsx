@@ -1,6 +1,6 @@
 import Image from "next/image"
 export const Banner = ({src}:{src:string})=>{
     return(
-        <img src={src} alt="" />
+        <img src={src} alt="banner da copa gymwod" />
     )
 }
