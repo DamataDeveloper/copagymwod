@@ -20,7 +20,7 @@ export const LinkBanner = ({src, alt, href} : Props)=>{
                     src={src} 
                     alt={alt} 
                 />
-                <span className={ ` text-white font-bold text-base group-hover:text-lg transition-all duration-300 ease-in-out transform`}>
+                <span className={ ` text-white font-bold text-base flex items-center group-hover:text-lg transition-all duration-300 ease-in-out transform`}>
                     {alt}
                 </span>
             </Link>
