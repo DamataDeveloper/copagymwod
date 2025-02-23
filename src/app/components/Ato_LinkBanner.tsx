@@ -12,7 +12,9 @@ export const LinkBanner = ({src, alt, href} : Props)=>{
         <div className='flex flex-1'>
             <Link  
                 className='transition-all duration-300 ease-in-out transform bg-blue-950 hover:bg-blue-800 group flex flex-col flex-1 items-center justify-around' 
-                href={href}>
+                href={href}
+                target="_blank"
+                >
                 <img
                     className='flex w-14 h-14 group-hover:w-16 group-hover:h-16 transition-all duration-300 ease-in-out transform' 
                     src={src} 

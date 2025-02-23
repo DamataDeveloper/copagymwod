@@ -13,7 +13,7 @@ export const NavBar = () => {
                 </Link>
             </div>
             <div className='flex flex-1  justify-end gap-2  md:gap-6'>
-                <LinkNav src="img/instagran.png" alt="instagran" span="@copagymwod" href="https://www.instagram.com/copagymwod?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" />
+                <LinkNav src="img/instagran.png" alt="instagran" span="@copagymwod" href="https://www.instagram.com/copagymwod?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="/>
                 <LinkNav src="img/whatsap.png" alt="whatsap" span="(11) 97071-2149" href="https://wa.me/5511970712149" />
                 {/* <LinkNav src="img/login.png" alt="login" span="Entrar" href="" /> */}
             </div>

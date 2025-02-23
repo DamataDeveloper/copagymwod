@@ -12,7 +12,10 @@ export const LinkNav = ({src, alt, span="", href=""}: Props) => {
     return (
         <Link
             className='flex justify-end items-center h-16  hover: group'
-            href={href}>
+            href={href}
+            target="_blank"
+            >
+            
             <img
                 className='w-7 mr-2 group-hover:rotate-360 transition-all duration-300 ease-in-out transform'
                 src={src}
